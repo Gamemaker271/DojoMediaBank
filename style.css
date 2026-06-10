@@ -4,6 +4,7 @@ body{
 }
 main{
   display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 .item{
   background-color: lightgrey;
