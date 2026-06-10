@@ -1,1 +1,43 @@
+var items = [
+  {
+    id: 0,
+    image: "a.png",
+    name: "photo",
+    date: "1/1/2026"
+  },
+  {
+    id: 1,
+    image: "b.png",
+    name: "photo 2",
+    date: "1/1/2000"
+  }
+];
 
+var selectMode = false;
+
+var selected = 0;
+
+function SelectThis(_id){
+  
+}
+
+function Add(){
+  
+}
+
+function Select(){
+  if(selectMode){
+    selectMode = false;
+  }
+  else{
+    selectMode = true;
+  }
+}
+
+function Edit(){
+  
+}
+
+function Delete(){
+  
+}
