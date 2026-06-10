@@ -9,6 +9,7 @@ main{
 .item{
   background-color: lightgrey;
   margin: 2px;
+  padding: 2px;
 }
 .item > img{
   width: 200px;
