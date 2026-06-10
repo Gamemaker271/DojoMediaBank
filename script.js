@@ -32,6 +32,9 @@ function Select(){
   else{
     selectMode = true;
   }
+  if(selectMode){
+    
+  }
 }
 
 function Edit(){
