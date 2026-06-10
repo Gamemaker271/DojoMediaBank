@@ -10,6 +10,7 @@ main{
   background-color: lightgrey;
   margin: 2px;
   padding: 2px;
+  text-align: center;
 }
 .item > img{
   width: 200px;
