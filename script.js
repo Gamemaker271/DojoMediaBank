@@ -12,6 +12,7 @@ var items = [
     date: "1/1/2000"
   }
 ];
+const ITEMS = document.querySelectorAll('.item');
 
 var selectMode = false;
 
@@ -33,7 +34,14 @@ function Select(){
     selectMode = true;
   }
   if(selectMode){
-    
+    ITEMS.forEach(i => {
+      i.style.borderColor = 'blue';
+    });
+  }
+  else{
+    ITEMS.forEach(i => {
+      i.style.borderColor = 'black';
+    });
   }
 }
 
