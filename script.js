@@ -36,7 +36,7 @@ function Select(){
   if(selectMode){
     ITEMS.forEach(i => {
       i.style.borderColor = 'blue';
-      i.innerHTML = '<p class="item-id">0</p>';
+      i.innerHTML = '<p class="item-id">' + i.querySelector('.item-id') + '</p>';
       i.innerHTML += '<img src="img.png">';
       i.innerHTML += '<p>Title</p>';
       i.innerHTML += '<label>1/1/2000</label>';
@@ -46,7 +46,7 @@ function Select(){
   else{
     ITEMS.forEach(i => {
       i.style.borderColor = 'black';
-      i.innerHTML = '<p class="item-id">0</p>';
+      i.innerHTML = '<p class="item-id">' + i.querySelector('.item-id') + '</p>';
       i.innerHTML += '<img src="img.png">';
       i.innerHTML += '<p>Title</p>';
       i.innerHTML += '<label>1/1/2000</label>';
