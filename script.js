@@ -37,7 +37,7 @@ function Select(){
     ITEMS.forEach(i => {
       i.style.borderColor = 'blue';
       i.innerHTML = '<p class="item-id">0</p>';
-      i.innerHTML += '<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Example_image.svg/960px-Example_image.svg.png">';
+      i.innerHTML += '<img src="img.png">';
       i.innerHTML += '<p>Title</p>';
       i.innerHTML += '<label>1/1/2000</label>';
       i.innerHTML += '<button onclick="Edit()">Edit Item</button><button onclick="Delete()">Delete Item</button>';
@@ -47,7 +47,7 @@ function Select(){
     ITEMS.forEach(i => {
       i.style.borderColor = 'black';
       i.innerHTML = '<p class="item-id">0</p>';
-      i.innerHTML += '<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Example_image.svg/960px-Example_image.svg.png">';
+      i.innerHTML += '<img src="img.png">';
       i.innerHTML += '<p>Title</p>';
       i.innerHTML += '<label>1/1/2000</label>';
     });
