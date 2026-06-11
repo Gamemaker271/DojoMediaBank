@@ -16,12 +16,6 @@ const ITEMS = document.querySelectorAll('.item');
 
 var selectMode = false;
 
-var selected = 0;
-
-function SelectThis(_id){
-  
-}
-
 function Add(){
   
 }
@@ -36,7 +30,7 @@ function Select(){
   if(selectMode){
     ITEMS.forEach(i => {
       i.style.borderColor = 'blue';
-      i.innerHTML = '<p class="item-id">' + i.querySelector('.item-id') + '</p>';
+      i.innerHTML = '<p class="item-id">' + i.querySelector('.item-id').innerHTML + '</p>';
       i.innerHTML += '<img src="img.png">';
       i.innerHTML += '<p>Title</p>';
       i.innerHTML += '<label>1/1/2000</label>';
@@ -46,7 +40,7 @@ function Select(){
   else{
     ITEMS.forEach(i => {
       i.style.borderColor = 'black';
-      i.innerHTML = '<p class="item-id">' + i.querySelector('.item-id') + '</p>';
+      i.innerHTML = '<p class="item-id">' + i.querySelector('.item-id').innerHTML + '</p>';
       i.innerHTML += '<img src="img.png">';
       i.innerHTML += '<p>Title</p>';
       i.innerHTML += '<label>1/1/2000</label>';
