@@ -42,6 +42,7 @@ function Select(){
   else{
     ITEMS.forEach(i => {
       i.style.borderColor = 'black';
+      i.innerHTML -= '<button onclick="Edit()">Edit Item</button><button onclick="Delete()">Delete Item</button>'
     });
   }
 }
