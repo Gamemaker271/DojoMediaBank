@@ -11,6 +11,7 @@ main{
   margin: 2px;
   padding: 2px;
   text-align: center;
+  border-width: 2px;
 }
 .item > img{
   width: 200px;
