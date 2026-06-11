@@ -36,6 +36,7 @@ function Select(){
   if(selectMode){
     ITEMS.forEach(i => {
       i.style.borderColor = 'blue';
+      i.innerHTML += '<button onclick="Edit()">Edit Item</button><button onclick="Delete()">Delete Item</button>'
     });
   }
   else{
