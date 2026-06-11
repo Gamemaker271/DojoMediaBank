@@ -40,7 +40,7 @@ function Select(){
       i.innerHTML += '<img src="img.png">';
       i.innerHTML += '<p>Title</p>';
       i.innerHTML += '<label>1/1/2000</label>';
-      i.innerHTML += '<button onclick="Edit()">Edit Item</button><button onclick="Delete()">Delete Item</button>';
+      i.innerHTML += '<br><button onclick="Edit()">Edit Item</button><button onclick="Delete()">Delete Item</button>';
     });
   }
   else{
