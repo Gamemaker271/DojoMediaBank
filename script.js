@@ -40,7 +40,7 @@ function Select(){
       i.innerHTML += '<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Example_image.svg/960px-Example_image.svg.png">';
       i.innerHTML += '<p>Title</p>';
       i.innerHTML += '<label>1/1/2000</label>';
-      i.innerHTML += "<button onclick="Edit()">Edit Item</button><button onclick="Delete()">Delete Item</button>"l;
+      i.innerHTML += '<button onclick="Edit()">Edit Item</button><button onclick="Delete()">Delete Item</button>';
     });
   }
   else{
